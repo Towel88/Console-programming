@@ -1,0 +1,52 @@
+#include <iostream>
+#include <string>
+#include <chrono>
+#include <thread>
+
+using namespace std;
+
+string x = "x";
+
+int userinput(int ui)
+{
+    if(ui == 0)
+    {
+        return 0;
+    }
+    
+    
+    return 0;
+}
+
+
+
+int main()
+{
+
+//getline(cin, x);
+
+ cout << x << '\n';
+ //x += "y";
+ //x = " " + x;
+ cout << x << '\n';
+
+string star = "*";
+string space = "";
+bool inputReceived = false;
+
+
+ thread inputThread([&](){
+    getline(cin,x);
+    inputReceived = true;
+    });
+
+while(true)
+{
+    cout << x << '\n';
+    
+   
+}
+
+  
+  
+}
