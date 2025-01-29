@@ -1,13 +1,20 @@
 #include <iostream>
 #include <string>
 
-
 using namespace std;
 
-int discMove = 0;
-
-void discMove(int &dm)
+void printPeg(string p1, string p2, string p3, int dm)
 {
+    for(int i = 0; i <= 15; ++i)
+    {
+    cout << "Move #" << dm << '\n';
+    cout << "Peg #1: " << p1 << '\n';
+    cout << "Peg #2: " << p2 << '\n';
+    cout << "Peg #3: " << p3 << '\n';
+    cout << '\n';
+    
+    ++dm;
+    }
 
 
 }
@@ -15,15 +22,18 @@ void discMove(int &dm)
 
 int main()
 {
+  
+  string peg1,peg2,peg3;
+  int discmove = 0;
+  peg1 = "321";
+  peg2 = "";
+  peg3 = "";
+  
+  
+  printPeg(peg1,peg2,peg3,discmove);
+  
+  
+  
 
-cout << "Move #" << discMove << '\n';
-cout << "Peg 1: " << string1 << '\n';
-cout << "Peg 2: " << string2 << '\n';
-cout << "Peg 3: " << string3 << '\n';
-
-
-
-
-
-return 0;
+    return 0;
 }
