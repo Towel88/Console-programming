@@ -13,6 +13,12 @@ void printPeg(string p1, string p2, string p3, int dm)
     cout << "Peg #3: " << p3 << '\n';
     cout << '\n';
     
+if()
+{
+
+}
+
+
     ++dm;
     }
 
