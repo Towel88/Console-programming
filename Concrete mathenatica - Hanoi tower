@@ -1,0 +1,20 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+int main()
+{
+
+cout << "Move #" << discMove << '\n';
+cout << "Peg 1: " << '\n';
+cout << "Peg 2: " << '\n';
+cout << "Peg 3: " << '\n';
+
+
+
+
+
+return 0;
+}
