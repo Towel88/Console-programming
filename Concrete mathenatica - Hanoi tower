@@ -1,16 +1,25 @@
 #include <iostream>
+#include <string>
 
 
 using namespace std;
+
+int discMove = 0;
+
+void discMove(int &dm)
+{
+
+
+}
 
 
 int main()
 {
 
 cout << "Move #" << discMove << '\n';
-cout << "Peg 1: " << '\n';
-cout << "Peg 2: " << '\n';
-cout << "Peg 3: " << '\n';
+cout << "Peg 1: " << string1 << '\n';
+cout << "Peg 2: " << string2 << '\n';
+cout << "Peg 3: " << string3 << '\n';
 
 
 
