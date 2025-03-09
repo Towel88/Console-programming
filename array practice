@@ -3,14 +3,27 @@
 using namespace std;
 
 
+int array1[5] = {0};
+int sizearray = sizeof(array1)/sizeof(array1[0]);
 
+void fillarray(int* fillarray, int sizeofarray)
+{
+
+for(int i = 0; i <= sizeofarray - 1; ++i)
+{
+fillarray[i] = i;
+cout << fillarray[i] << '\n';
+
+}
+
+}
 
 
 
 int main()
 {
 
-
+fillarray(array1, sizearray);
 
 
 
